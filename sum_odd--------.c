@@ -8,36 +8,36 @@
 // Expected Output:
 // Sum of all odd values: 46
 
-// #include<stdio.h>
-// int main()
-// {
-//     int a,b,c,d,e,n1=0,n2=0,n3=0,n4=0,n5=0,sum;
-//     printf("Input the first number:");
-//     scanf("%d",&a);
-//     printf("Input the second number:");
-//     scanf("%d",&b);
-//     printf("Input the third number:");
-//     scanf("%d",&c);
-//     printf("Input the four number:");
-//     scanf("%d",&d);
-//     printf("Input the five number:");
-//     scanf("%d",&e);
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e,n1=0,n2=0,n3=0,n4=0,n5=0,sum;
+    printf("Input the first number:");
+    scanf("%d",&a);
+    printf("Input the second number:");
+    scanf("%d",&b);
+    printf("Input the third number:");
+    scanf("%d",&c);
+    printf("Input the four number:");
+    scanf("%d",&d);
+    printf("Input the five number:");
+    scanf("%d",&e);
    
-//     if(a%2!=0)
-//        n1=a;
-//     if(b%2!=0)
-//        n2=b;
-//     if(c%2!=0)
-//        n3=c;
-//     if(d%2!=0)
-//        n4=d;
-//     if(e%2!=0)
-//        n5=e;       
-//     sum = n1+n2+n3+n4+n5;   
-//     printf("Sum of all odd values:%d",sum);
-//     return 0;
+    if(a%2!=0)
+       n1=a;
+    if(b%2!=0)
+       n2=b;
+    if(c%2!=0)
+       n3=c;
+    if(d%2!=0)
+       n4=d;
+    if(e%2!=0)
+       n5=e;       
+    sum = n1+n2+n3+n4+n5;   
+    printf("Sum of all odd values:%d",sum);
+    return 0;
 
-// }
+}
 
 // using arrays 
 
@@ -64,16 +64,6 @@ int main()
 }
 
 
-// Write a C program that reads 5 numbers, counts the number of positive numbers, and prints out the average of all positive values.
-// Test Data :
-// Input the first number: 5
-// Input the second number: 8
-// Input the third number: 10
-// Input the fourth number: -5
-// Input the fifth number: 25
-// Expected Output:
-// Number of positive numbers: 4
-// Average value of the said positive numbers: 12.00
 
 
 
