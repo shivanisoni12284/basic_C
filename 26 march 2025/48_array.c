@@ -24,21 +24,14 @@ int main()
         printf("enter the number:");
         scanf("%d",&arr[i]);
     }
-    
-    // if(arr[i]<0||arr[i]==0)
-    // {
-    //     arr[i]=100;
-    // }
-    
+
     printf("array values are :");
     for(i=0;i<5;i++)
-    {
-            
+    {   
          if(arr[i]<0||arr[i]==0)
         {
             arr[i]=100;
         }
-    
         printf("n[%d]=%d\n",i,arr[i]);
     }
     return 0;
