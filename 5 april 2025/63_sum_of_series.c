@@ -12,16 +12,11 @@ int main()
 
     int i =1,a,sum=0,m;
     while(i<=n)
-    { 
-       for(m=m+m;m<=10;m++)
-       {
-           i=i+m;
-           break;
-        }   
+    {  
         m=m+1 ;
         a=pow(i,4); 
         sum=sum+a;
-        
+        i=i+m;
     }
     printf("sum of the series is %d\n",sum);
     return 0;
